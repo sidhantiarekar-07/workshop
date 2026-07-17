@@ -1,7 +1,7 @@
 from typing import Any
 
 import requests
-import ujson
+import json as ujson
 
 
 EMBEDDINGS_API_URL = "https://openrouter.ai/api/v1/embeddings"

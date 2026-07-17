@@ -2,7 +2,7 @@ from types import SimpleNamespace
 
 import pytest
 import requests
-import ujson
+import json as ujson
 
 from agentic_chat.externals.openrouter import (
     API_URL,

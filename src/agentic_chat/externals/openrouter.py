@@ -2,7 +2,7 @@ from collections.abc import Callable
 from typing import Any
 
 import requests
-import ujson
+import json as ujson
 from exa_py import Exa
 
 from agentic_chat.tools import build_tool_schemas, default_tool_choice, execute_tool
